@@ -1,0 +1,57 @@
+/* Color of the links BEFORE scroll */
+a{
+  cursor: pointer;
+}
+
+.bgNav {
+  background-color: #141414;
+}
+
+.fonte{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  letter-spacing: 3px;
+}
+
+.botao-hover {
+    width: 120px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    height: 35px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .botao-hover:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  .botao-hover:focus {
+    outline: none;
+  }
+  
+  .botao-hover.botao24 {
+    background-image: linear-gradient(
+        to right,
+        #ab7ae0,
+        #854eca,
+        #cda8f0,
+        #ebd7fa
+       
+      );
+    box-shadow: 0 4px 15px 0 #ab7ae0;
+  }
