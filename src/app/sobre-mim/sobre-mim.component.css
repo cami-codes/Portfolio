@@ -52,7 +52,7 @@
 }
 
 .bn31:hover .bn31span {
-    background: #1f1f1f;
+    background: #141414;
 }
 
 
@@ -77,7 +77,7 @@
 
 .contato .contatospan {
     align-items: center;
-    background: #1f1f1f;
+    background: #141414;
     border-radius: 40px;
     display: flex;
     justify-content: center;
@@ -146,12 +146,15 @@
 
 .social-list li{
     padding:10px;
-    color:#854eca;
-    font-size:19px;
+    font-size:22px;
 }
 
-.social-list li:hover{
-    background-color: #313536;
+li a{
+    color:#854eca;
+}
+
+ li a:hover{
+    color: #141414;
 }
 
 .buttons button:nth-child(1){

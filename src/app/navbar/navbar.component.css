@@ -17,6 +17,36 @@ a{
   letter-spacing: 3px;
 }
 
+.hoverNav{
+  color: inherit;
+  text-decoration: none;
+}
+
+.hoverNav{
+  background:
+    linear-gradient(
+      to right,
+      #fff,
+      #fff
+    ),
+    linear-gradient(
+      to right,
+      #ab7ae0,
+      #854eca,
+      #cda8f0
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
+.hoverNav:hover{
+  background-size: 0 3px, 100% 3px;
+}
+
+
+
 .botao-hover {
     width: 120px;
     font-size: 16px;
@@ -55,3 +85,4 @@ a{
       );
     box-shadow: 0 4px 15px 0 #ab7ae0;
   }
+
