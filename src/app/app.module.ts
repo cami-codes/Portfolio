@@ -8,6 +8,7 @@ import { ProjetosComponent } from './projetos/projetos.component';
 import { ModalProjetoComponent } from './modal-projeto/modal-projeto.component';
 import { HabilidadesComponent } from './habilidades/habilidades.component';
 import { HomeComponent } from './home/home.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { HomeComponent } from './home/home.component';
     ProjetosComponent,
     ModalProjetoComponent,
     HabilidadesComponent,
-    HomeComponent
+    HomeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule

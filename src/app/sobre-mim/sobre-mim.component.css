@@ -5,191 +5,88 @@
     color: white;
 }
 
-.bg {
-    background: #1f1f1f;
-}
-
-.dev{
-    font-weight: 700;
-  text-align: center;
-  font-size: 50px;
-  font-family: Hack, sans-serif;
-  text-transform: uppercase;
-  background: linear-gradient(90deg, #854eca, #cda8f0, #141414);
-  letter-spacing: 5px;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-repeat: no-repeat;
-  background-size: 80%;
-  animation: shine 5s linear infinite;
-  position: relative;
-}
-
-@keyframes shine {
-  0% {
-    background-position-x: -500%;
-  }
-  100% {
-    background-position-x: 500%;
-  }
-}
-
-
-
-/* BOTÕES */
-.bn31 {
-    background-image: linear-gradient(to right, #cda8f0 0%, #854eca 100%);
-    border-radius: 40px;
-    box-sizing: border-box;
-    color: #fff;
-    display: block;
-    height: 50px;
-    font-size: 1.4em;
-    padding: 4px;
-    position: relative;
-    text-decoration: none;
-    width: 7em;
-    z-index: 2;
-}
-
-.bn31:hover {
-    color: #fff;
-}
-
-.bn31 .bn31span {
-    align-items: center;
-    background-image: linear-gradient(to right, #cda8f0 0%, #854eca 100%);
-    border-radius: 40px;
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    transition: background 0.5s ease;
-    width: 100%;
-}
-
-.bn31:hover .bn31span {
-    background: #141414;
-}
-
-
-.contato {
-    background-image: linear-gradient(to right, #cda8f0 0%, #854eca 100%);
-    border-radius: 40px;
-    box-sizing: border-box;
-    color: #fff;
-    display: block;
-    height: 50px;
-    font-size: 1.4em;
-    padding: 4px;
-    position: relative;
-    text-decoration: none;
-    width: 7em;
-    z-index: 2;
-}
-
-.contato:hover {
-    color: #fff;
-}
-
-.contato .contatospan {
-    align-items: center;
-    background: #141414;
-    border-radius: 40px;
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    transition: background 0.5s ease;
-    width: 100%;
-}
-
-.contato:hover .contatospan {
-    background: transparent;
-}
-
-/* BOTÕES */
-.card{
-    border:none;
+.card {
+    border: none;
     background: #cda8f0;
-    position:relative;
-    overflow:hidden;
-    border-radius:8px;
-    cursor:pointer;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
-.card:before{
-    
-    content:"";
-    position:absolute;
-    left:0;
-    top:0;
-    width:4px;
-    height:100%;
-    background-color:#cda8f0;
-    transform:scaleY(1);
-    transition:all 0.5s;
+.card:before {
+
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    background-color: #cda8f0;
+    transform: scaleY(1);
+    transition: all 0.5s;
     transform-origin: bottom
 }
 
-.card:after{
-    
-    content:"";
-    position:absolute;
-    left:0;
-    top:0;
-    width:4px;
-    height:100%;
-    background-color:#854eca;
-    transform:scaleY(0);
-    transition:all 0.5s;
+.card:after {
+
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    background-color: #854eca;
+    transform: scaleY(0);
+    transition: all 0.5s;
     transform-origin: bottom
 }
 
-.card:hover::after{
-    transform:scaleY(1);
+.card:hover::after {
+    transform: scaleY(1);
 }
 
 
-.fonts{
-    font-size:15px;
+.fonts {
+    font-size: 15px;
 }
 
-.social-list{
-    display:flex;
-    list-style:none;
-    justify-content:center;
-    padding:0;
+.social-list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
 }
 
-.social-list li{
-    padding:10px;
-    font-size:22px;
+.social-list li {
+    padding: 10px;
+    font-size: 22px;
 }
 
-li a{
-    color:#854eca;
+li a {
+    color: #854eca;
 }
 
- li a:hover{
+li a:hover {
     color: #141414;
 }
 
-.buttons button:nth-child(1){
-       border:1px solid #854eca !important;
-       color:#854eca;
-       height:40px;
+.buttons button:nth-child(1) {
+    border: 1px solid #854eca !important;
+    color: #854eca;
+    height: 40px;
 }
 
-.buttons button:nth-child(1):hover{
-       border:1px solid #854eca !important;
-       color:#fff;
-       height:40px;
-       background-color:#854eca;
+.buttons button:nth-child(1):hover {
+    border: 1px solid #854eca !important;
+    color: #fff;
+    height: 40px;
+    background-color: #854eca;
 }
 
-.buttons button:nth-child(2){
-       border:1px solid #854eca !important;
-       background-color:#854eca;
-       color:#fff;
-        height:40px;
+.buttons button:nth-child(2) {
+    border: 1px solid #854eca !important;
+    background-color: #854eca;
+    color: #fff;
+    height: 40px;
 }
